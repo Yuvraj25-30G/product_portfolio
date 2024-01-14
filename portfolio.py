@@ -132,7 +132,7 @@ if selected == "Product Thinking":
         with col8:
             st.subheader("Scrub-the-strat-slam: A Jio Creative Labs competition")
             st.write("The presentation contains our strategy on how we would make dishwashers a household item in India, just like washing machines. This presentation was the submission of stage 1 of the competition conducted by Unstop and Jio Creative Labs.")
-            st.markdown("[See Project](https://yuvraj25-30g-udemy-course-analysis-app-4qa22c.streamlit.app/)")
+            st.markdown("[Notion](https://moored-sousaphone-354.notion.site/Scrub-the-strat-slam-8773e84a56614bd3beb629cb1583143b)")
             st.write("##")
             st.subheader("F1 - Frenzy")
             st.write("A mockup of a new app to build fantasy football like teams but for Formula 1 and other motor sports iterations. The mockup is built using Figma.")

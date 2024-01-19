@@ -15,6 +15,8 @@ hide_st_style = """
             """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
+
+#----------------------Add Images Here--------------------------------
 svg_file = "homepage.svg"
 
 room_find = Image.open("room_find.png")
@@ -24,7 +26,10 @@ f1_frenzy = Image.open("MockUI.png")
 scrub_the_strat_slam = Image.open("Scrub-the-strat.png")
 la_dash = Image.open("la_analysis_dashboard.jpeg")
 one_card_pt = Image.open("onecard-credit-card.jpg")
+playo_img = Image.open("playo.png")
 
+
+#---------------------------Home Page----------------------------
 st.write("##")
 st.subheader("Hello World :wave:")
 st.title("Welcome to my portfolio")
@@ -34,8 +39,8 @@ st.write('----')
 with st.container():
     selected = option_menu(
         menu_title = None,
-        options = ['About','Coding Projects','Product Thinking'],
-        icons = ['person', 'code-slash', 'lightbulb'],
+        options = ['About','Product Thinking','Coding Projects'],
+        icons = ['person', 'lightbulb', 'code-slash'],
         orientation = 'horizontal'
     )
 
@@ -96,6 +101,42 @@ if selected == 'About':
                     4.2/5
             """)
 
+#-------------------------------------------Product thinking----------------------------------------------------------------------
+if selected == "Product Thinking":
+    with st.container():
+        st.header("Projects")
+        st.write("##")
+        col7, col8 = st.columns((1,2))
+        with col7:
+            st.image(playo_img)
+            st.image(scrub_the_strat_slam)
+            st.image(f1_frenzy)
+            st.image(room_find)
+            # st.image(one_card_pt)
+        with col8:
+            st.subheader("Product Sense: PlayO")
+            st.write("This project is my take on How I would improve my favorite product? Here we discuss why I love PlayO and what are some features I think can improve the app as a whole.")
+            st.markdown("[Notion](https://moored-sousaphone-354.notion.site/Favorite-Product-Feature-Suggestion-PlayO-cf1352a7662d4f6f8de7f77b6a992f08?pvs=25)")
+            st.write("##")
+            st.subheader("Scrub-the-strat-slam: A Jio Creative Labs competition")
+            st.write("The presentation contains our strategy on how we would make dishwashers a household item in India, just like washing machines. This presentation was the submission of stage 1 of the competition conducted by Unstop and Jio Creative Labs.")
+            st.markdown("[Notion](https://moored-sousaphone-354.notion.site/Scrub-the-strat-slam-8773e84a56614bd3beb629cb1583143b)")
+            st.write("##")
+            st.subheader("F1 - Frenzy")
+            st.write("A mockup of a new app to build fantasy football like teams but for Formula 1 and other motor sports iterations. The mockup is built using Figma.")
+            st.markdown("[Figma](https://www.figma.com/file/K9EeC0gjXM48B9msRMtzPQ/F1Frenzy_WireFrame?type=design&node-id=0%3A1&mode=design&t=rniZqcHYN9PSvF50-1)")
+            st.write("##")
+            #st.write("##")
+            st.subheader("Roommate Finder - UI Project")
+            st.write("An app to find yourself a roommate. From your hostel to an apartment, a one stop solution to your rent problems. The ui and prototyping was done on Figma.")
+            st.markdown("[Figma](https://www.figma.com/file/y4BKjfYOicPBMmRTVMdNdH/Roommate-Finder?type=design&node-id=0%3A1&mode=design&t=i02fwrmNYdtzkPZn-1)")
+            st.write("##")
+            # st.subheader("One Card - Product Teardown")
+            # st.write("On the way...")
+            # #st.markdown("[Figma](https://www.figma.com/file/y4BKjfYOicPBMmRTVMdNdH/Roommate-Finder?type=design&node-id=0%3A1&mode=design&t=i02fwrmNYdtzkPZn-1)")
+            # st.write("##")
+
+#-----------------------------------Coding Projects----------------------------------------------------------
 if selected == "Coding Projects":
     with st.container():
         st.header("My Projects")
@@ -117,33 +158,4 @@ if selected == "Coding Projects":
             st.subheader("Grasper - A productivity App")
             st.write("A group project built in my second year following the scrum methodology, this app was developed to improve your productivity using well known techniques available to you in your palm. This app was build using Flutter, Dart and Firebase")
             st.markdown("[Visit Github (Feature)](https://github.com/Yuvraj25-30G/pomodoro_1)")
-            st.write("##")
-
-if selected == "Product Thinking":
-    with st.container():
-        st.header("Projects")
-        st.write("##")
-        col7, col8 = st.columns((1,2))
-        with col7:
-            st.image(scrub_the_strat_slam)
-            st.image(f1_frenzy)
-            st.image(room_find)
-            st.image(one_card_pt)
-        with col8:
-            st.subheader("Scrub-the-strat-slam: A Jio Creative Labs competition")
-            st.write("The presentation contains our strategy on how we would make dishwashers a household item in India, just like washing machines. This presentation was the submission of stage 1 of the competition conducted by Unstop and Jio Creative Labs.")
-            st.markdown("[Notion](https://moored-sousaphone-354.notion.site/Scrub-the-strat-slam-8773e84a56614bd3beb629cb1583143b)")
-            st.write("##")
-            st.subheader("F1 - Frenzy")
-            st.write("A mockup of a new app to build fantasy football like teams but for Formula 1 and other motor sports iterations. The mockup is built using Figma.")
-            st.markdown("[Figma](https://www.figma.com/file/K9EeC0gjXM48B9msRMtzPQ/F1Frenzy_WireFrame?type=design&node-id=0%3A1&mode=design&t=rniZqcHYN9PSvF50-1)")
-            st.write("##")
-            #st.write("##")
-            st.subheader("Roommate Finder - UI Project")
-            st.write("An app to find yourself a roommate. From your hostel to an apartment, a one stop solution to your rent problems. The ui and prototyping was done on Figma.")
-            st.markdown("[Figma](https://www.figma.com/file/y4BKjfYOicPBMmRTVMdNdH/Roommate-Finder?type=design&node-id=0%3A1&mode=design&t=i02fwrmNYdtzkPZn-1)")
-            st.write("##")
-            st.subheader("One Card - Product Teardown")
-            st.write("On the way...")
-            #st.markdown("[Figma](https://www.figma.com/file/y4BKjfYOicPBMmRTVMdNdH/Roommate-Finder?type=design&node-id=0%3A1&mode=design&t=i02fwrmNYdtzkPZn-1)")
             st.write("##")

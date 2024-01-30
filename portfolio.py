@@ -119,6 +119,7 @@ if selected == "Product Thinking":
             st.write("This project is my take on How I would improve my favorite product? Here we discuss why I love PlayO and what are some features I think can improve the app as a whole.")
             st.markdown("[View Project](https://moored-sousaphone-354.notion.site/Favorite-Product-Feature-Suggestion-PlayO-cf1352a7662d4f6f8de7f77b6a992f08?pvs=25)")
             st.write("##")
+            st.write("##")
             st.subheader("Product Design: F1 Frenzy")
             st.write("The goal of the project is to go deep into the design of the first iteration or a pre-prototype of an application, define the basis, and develop a mock-up of the app.")
             st.markdown("[View Project](https://moored-sousaphone-354.notion.site/F1-Frenzy-Product-Design-a2e508d7090a4e6783350762f56941ce)")

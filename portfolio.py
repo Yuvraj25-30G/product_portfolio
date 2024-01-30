@@ -158,6 +158,7 @@ if selected == "Coding Projects":
             # st.subheader("Data Science in Technical SEO")
             # st.write("This paper examines the application of data science methodologies to technical search engine optimization (SEO) in order to enhance website visibility and search engine rankings. We conduct a simulated study using the SEO Sample Data and SEO Crawl Dataset to demonstrate how data science and machine learning can be used to improve the technical aspects of an SEO campaign.")
             # st.markdown("[View Study](https://bennettu-my.sharepoint.com/personal/e20cse307_bennett_edu_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fe20cse307%5Fbennett%5Fedu%5Fin%2FDocuments%2FE20CSE307%5FEB15A%5FFull%5FPaper%2Epdf&parent=%2Fpersonal%2Fe20cse307%5Fbennett%5Fedu%5Fin%2FDocuments)")
+            st.write("##")
             st.subheader("Grasper - A productivity App")
             st.write("A group project built in my second year following the scrum methodology, this app was developed to improve your productivity using well known techniques available to you in your palm. This app was build using Flutter, Dart and Firebase")
             st.markdown("[Visit Github (Feature)](https://github.com/Yuvraj25-30G/pomodoro_1)")

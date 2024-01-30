@@ -24,9 +24,10 @@ udemy_dash = Image.open("udemy_project_thumbnail.jpg")
 grasper_app = Image.open("grasper_twitter.png")
 f1_frenzy = Image.open("f1_wall.jpg")
 scrub_the_strat_slam = Image.open("Scrub-the-strat.png")
-la_dash = Image.open("la_analysis_dashboard.jpeg")
+la_dash = Image.open("analysis.png")
 one_card_pt = Image.open("onecard-credit-card.jpg")
-playo_img = Image.open("playo.png")
+playo_img = Image.open("PlayoApp.jpg")
+research_img = Image.open("research.png")
 
 
 #---------------------------Home Page----------------------------
@@ -85,7 +86,7 @@ if selected == 'About':
             Education
             - Bennett University
                 - Bachelor of Technology -Computer Science
-                - Grade: 8.92
+                - Grade: 9.0/10
             """)
             st.subheader("""
             Experience
@@ -109,8 +110,8 @@ if selected == "Product Thinking":
         col7, col8 = st.columns((1,2))
         with col7:
             st.image(playo_img)
-            # st.image(scrub_the_strat_slam)
             st.image(f1_frenzy)
+            st.image(scrub_the_strat_slam)
             st.image(room_find)
             # st.image(one_card_pt)
         with col8:
@@ -118,13 +119,13 @@ if selected == "Product Thinking":
             st.write("This project is my take on How I would improve my favorite product? Here we discuss why I love PlayO and what are some features I think can improve the app as a whole.")
             st.markdown("[View Project](https://moored-sousaphone-354.notion.site/Favorite-Product-Feature-Suggestion-PlayO-cf1352a7662d4f6f8de7f77b6a992f08?pvs=25)")
             st.write("##")
-            # st.subheader("Scrub-the-strat-slam: A Jio Creative Labs competition")
-            # st.write("The presentation contains our strategy on how we would make dishwashers a household item in India, just like washing machines. This presentation was the submission of stage 1 of the competition conducted by Unstop and Jio Creative Labs.")
-            # st.markdown("[Notion](https://moored-sousaphone-354.notion.site/Scrub-the-strat-slam-8773e84a56614bd3beb629cb1583143b)")
-            # st.write("##")
             st.subheader("Product Design: F1 Frenzy")
             st.write("The goal of the project is to go deep into the design of the first iteration or a pre-prototype of an application, define the basis, and develop a mock-up of the app.")
             st.markdown("[View Project](https://moored-sousaphone-354.notion.site/F1-Frenzy-Product-Design-a2e508d7090a4e6783350762f56941ce)")
+            st.write("##")
+            st.subheader("Scrub-the-strat-slam: A Jio Creative Labs competition")
+            st.write("The presentation contains our strategy on how we would make dishwashers a household item in India, just like washing machines. This presentation was the submission of stage 1 of the competition conducted by Unstop and Jio Creative Labs.")
+            st.markdown("[View Project](https://moored-sousaphone-354.notion.site/Scrub-the-strat-slam-8773e84a56614bd3beb629cb1583143b)")
             st.write("##")
             #st.write("##")
             st.subheader("Roommate Finder - UI Project")
@@ -146,6 +147,7 @@ if selected == "Coding Projects":
             st.image(la_dash)
             st.image(udemy_dash)
             st.image(grasper_app)
+            st.image(research_img)
         with col6:
             st.subheader("Los Angeles Crime Data Analysis")
             st.write("This project contains the analysis of the crime data collected by the LAPD converted into dashboards explaining all necessary details.")
@@ -154,8 +156,12 @@ if selected == "Coding Projects":
             st.subheader("Udemy Courses Analysis - Dashboard")
             st.write("A dashboard analysing over 1000 different courses across 4 categories built using Python and Streamlit with filters to easily switch between desired choices.")
             st.markdown("[View Project](https://yuvraj25-30g-udemy-course-analysis-app-4qa22c.streamlit.app/)")
-            #st.write("##")
+            st.write("##")
             st.subheader("Grasper - A productivity App")
             st.write("A group project built in my second year following the scrum methodology, this app was developed to improve your productivity using well known techniques available to you in your palm. This app was build using Flutter, Dart and Firebase")
             st.markdown("[Visit Github (Feature)](https://github.com/Yuvraj25-30G/pomodoro_1)")
+            # st.write("##")
+            st.subheader("Data Science in Technical SEO")
+            st.write("This paper examines the application of data science methodologies to technical search engine optimization (SEO) in order to enhance website visibility and search engine rankings. We conduct a simulated study using the SEO Sample Data and SEO Crawl Dataset to demonstrate how data science and machine learning can be used to improve the technical aspects of an SEO campaign.")
+            st.markdown("[View Study](https://bennettu-my.sharepoint.com/personal/e20cse307_bennett_edu_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fe20cse307%5Fbennett%5Fedu%5Fin%2FDocuments%2FE20CSE307%5FEB15A%5FFull%5FPaper%2Epdf&parent=%2Fpersonal%2Fe20cse307%5Fbennett%5Fedu%5Fin%2FDocuments)")
             st.write("##")

@@ -158,8 +158,6 @@ if selected == "Coding Projects":
             st.write("A dashboard analysing over 1000 different courses across 4 categories built using Python and Streamlit with filters to easily switch between desired choices.")
             st.markdown("[View Project](https://yuvraj25-30g-udemy-course-analysis-app-4qa22c.streamlit.app/)")
             st.write("##")
-            st.write("##")
-            st.write("##")
             st.subheader("Grasper - A productivity App")
             st.write("A group project built in my second year following the scrum methodology, this app was developed to improve your productivity using well known techniques available to you in your palm. This app was build using Flutter, Dart and Firebase")
             st.markdown("[Visit Github (Feature)](https://github.com/Yuvraj25-30G/pomodoro_1)")

@@ -153,6 +153,7 @@ if selected == "Coding Projects":
             st.write("This project contains the analysis of the crime data collected by the LAPD converted into dashboards explaining all necessary details.")
             st.markdown("[View Project](https://public.tableau.com/app/profile/yuvraj.saxena/viz/ArrestDataCompleteAnalysis/ArrestsDataAnalytics-1)")
             st.write("##")
+            st.write("##")
             st.subheader("Udemy Courses Analysis - Dashboard")
             st.write("A dashboard analysing over 1000 different courses across 4 categories built using Python and Streamlit with filters to easily switch between desired choices.")
             st.markdown("[View Project](https://yuvraj25-30g-udemy-course-analysis-app-4qa22c.streamlit.app/)")
